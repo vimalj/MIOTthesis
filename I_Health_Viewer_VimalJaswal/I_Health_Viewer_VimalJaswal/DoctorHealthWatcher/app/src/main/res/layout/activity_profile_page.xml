@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ProfilePage"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            style="@style/headerText"
+            android:text="Patient Info"
+            android:layout_marginBottom="20dp"/>
+
+        <RelativeLayout style="@style/profileDetailsLayout">
+            <TextView
+                android:text="Name: "
+                android:id="@+id/nameT"
+                style="@style/profileDetailsTextMain" />
+
+            <TextView
+                android:id="@+id/name"
+                android:text=""
+                android:layout_toRightOf="@id/nameT"
+                style="@style/profileDetailsMiniText" />
+
+        </RelativeLayout>
+
+        <View style="@style/proifleDetailsView" />
+        <RelativeLayout style="@style/profileDetailsLayout">
+            <TextView
+                android:text="Username: "
+                android:id="@+id/usernameT"
+                style="@style/profileDetailsTextMain"/>
+
+            <TextView
+                android:id="@+id/username"
+                android:text=""
+                android:layout_toRightOf="@id/usernameT"
+                style="@style/profileDetailsMiniText" />
+
+        </RelativeLayout>
+
+        <View style="@style/proifleDetailsView" />
+        <RelativeLayout style="@style/profileDetailsLayout">
+            <TextView
+                android:text="Email: "
+                android:id="@+id/emailT"
+                style="@style/profileDetailsTextMain" />
+
+            <TextView
+                android:id="@+id/email"
+                android:text=""
+                android:layout_toRightOf="@id/emailT"
+                style="@style/profileDetailsMiniText" />
+
+        </RelativeLayout>
+
+        <View style="@style/proifleDetailsView" />
+        <RelativeLayout style="@style/profileDetailsLayout">
+
+            <TextView
+                android:text="Age: "
+                android:id="@+id/ageT"
+                style="@style/profileDetailsTextMain" />
+
+            <TextView
+                android:id="@+id/age"
+                android:text=""
+                android:layout_toRightOf="@id/ageT"
+                style="@style/profileDetailsMiniText" />
+
+        </RelativeLayout>
+
+        <View style="@style/proifleDetailsView" />
+        <RelativeLayout style="@style/profileDetailsLayout">
+
+            <TextView
+                android:text="Weight(kg): "
+                android:id="@+id/weightT"
+                style="@style/profileDetailsTextMain" />
+
+            <TextView
+                android:id="@+id/weight"
+                android:text=""
+                android:layout_toRightOf="@id/weightT"
+                style="@style/profileDetailsMiniText" />
+
+        </RelativeLayout>
+
+        <View style="@style/proifleDetailsView" />
+
+        <RelativeLayout style="@style/profileDetailsLayout">
+
+            <TextView
+                android:id="@+id/heightT"
+                android:text="Height(cm): "
+                style="@style/profileDetailsTextMain" />
+
+            <TextView
+                android:id="@+id/height"
+                android:text=""
+                android:layout_toRightOf="@id/heightT"
+                style="@style/profileDetailsMiniText" />
+
+        </RelativeLayout>
+        <View style="@style/proifleDetailsView" />
+        <RelativeLayout style="@style/profileDetailsLayout">
+
+            <TextView
+                android:id="@+id/genderT"
+                android:text="Gender: "
+                style="@style/profileDetailsTextMain" />
+
+            <TextView
+                android:id="@+id/gender"
+                android:text=""
+                android:layout_toRightOf="@id/genderT"
+                style="@style/profileDetailsMiniText" />
+
+
+
+        </RelativeLayout>
+        <Button
+            android:id="@+id/HR"
+            android:layout_width="234dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:background="@color/colorPrimaryDark2"
+            android:layout_margin="50dp"
+            android:textColor="@color/whiteTextColor"
+            android:text="Check Past HR Readings" />
+        <Button
+            android:id="@+id/BP"
+            android:layout_width="234dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="70dp"
+            android:background="@color/colorPrimaryDark2"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="-30dp"
+            android:textColor="@color/whiteTextColor"
+            android:text="Check Past BP Readings" />
+
+    </LinearLayout>
+
+</ScrollView>

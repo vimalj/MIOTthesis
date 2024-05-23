@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">iHealth Viewer</string>
+    <string name="msg">Please enable all permission</string>
+    <string name="donotDimScreen">DoNotDimScreen</string>
+
+    <string-array name="Gender">
+        <item>Male</item>
+        <item>Female</item>
+
+    </string-array>
+
+</resources>

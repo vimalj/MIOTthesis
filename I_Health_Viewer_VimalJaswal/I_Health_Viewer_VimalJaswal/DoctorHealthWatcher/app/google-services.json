@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "59558170201",
+    "firebase_url": "https://health-watcher-94fa4.firebaseio.com",
+    "project_id": "health-watcher-94fa4",
+    "storage_bucket": "health-watcher-94fa4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59558170201:android:5849c84f82e987d7756b48",
+        "android_client_info": {
+          "package_name": "com.example.doctorhealthwatcher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "59558170201-aaq61m6skrfhi2ngjtleaopirncvok8i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvRLs3WijfvxvshuHW8_gZSVTXrUJK4hQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "59558170201-aaq61m6skrfhi2ngjtleaopirncvok8i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59558170201:android:60ca9f15a74ba486756b48",
+        "android_client_info": {
+          "package_name": "com.example.yo7a.healthwatcher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "59558170201-aaq61m6skrfhi2ngjtleaopirncvok8i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvRLs3WijfvxvshuHW8_gZSVTXrUJK4hQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "59558170201-aaq61m6skrfhi2ngjtleaopirncvok8i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

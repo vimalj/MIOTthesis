@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AndroidProjects-HealthWatcher.iml" filepath="$PROJECT_DIR$/.idea/modules/AndroidProjects-HealthWatcher.iml" group="HealthWatcher" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AndroidProjects-HealthWatcher-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AndroidProjects-HealthWatcher-app.iml" group="HealthWatcher/app" />
+      <module fileurl="file://$PROJECT_DIR$/AndroidStudioApps-HealthWatcher.iml" filepath="$PROJECT_DIR$/AndroidStudioApps-HealthWatcher.iml" group="HealthWatcher" />
+      <module fileurl="file://$PROJECT_DIR$/HealthWatcher.iml" filepath="$PROJECT_DIR$/HealthWatcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/HealthWatcher-app.iml" filepath="$PROJECT_DIR$/app/HealthWatcher-app.iml" group="HealthWatcher/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/I_Health_Viewer-PersonalHealthWatcher.iml" filepath="$PROJECT_DIR$/.idea/modules/I_Health_Viewer-PersonalHealthWatcher.iml" group="PersonalHealthWatcher" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/I_Health_Viewer-PersonalHealthWatcher-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/I_Health_Viewer-PersonalHealthWatcher-app.iml" group="PersonalHealthWatcher/app" />
+      <module fileurl="file://$PROJECT_DIR$/PersonalHealthWatcher.iml" filepath="$PROJECT_DIR$/PersonalHealthWatcher.iml" group="PersonalHealthWatcher" />
+      <module fileurl="file://$PROJECT_DIR$/app/PersonalHealthWatcher-app.iml" filepath="$PROJECT_DIR$/app/PersonalHealthWatcher-app.iml" group="PersonalHealthWatcher/app" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>
